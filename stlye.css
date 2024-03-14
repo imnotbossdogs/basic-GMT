@@ -125,8 +125,8 @@ img {
 }
 /* HEADER */
 .header{
-    background:var(--dark);
-    position:relative;
+    background:transparent;
+    position:2rem;
     position:fixed;
     width:100%;
 }
@@ -195,7 +195,7 @@ img {
 @media screen and (max-width:500px){
   .header__nav{
 transition:.5s ease;
-background:green;
+background:transparent;
 position:absolute;
 top:0rem;
 right:-100rem;
@@ -256,9 +256,13 @@ transform:translateY(3rem);
 
 
 
-
-
-
+/* BANNER */
+.banner{
+  background-image:url("img/banner_home_v1.jpg");
+  background-size:cover;
+  height:100vh;
+  background-position:center center;
+}
 
 
 /* REPEATABLE PATTERNS */
